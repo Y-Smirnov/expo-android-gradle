@@ -25,13 +25,15 @@
     "gradle",
     "expo-android-gradle"
   ],
-  "repository": "https://github.com/Y-Smirnov",
-  "bugs": {
-    "url": "https://github.com/Y-Smirnov/issues"
-  },
-  "author": "yevheniismirnov <yevhenii.smirnov@outlook.com> (Y-Smirnov)",
+  "author": "Yevhenii Smirnov",
   "license": "MIT",
-  "homepage": "https://github.com/Y-Smirnov#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Y-Smirnov/expo-android-gradle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Y-Smirnov/expo-android-gradle/issues"
+  },
   "dependencies": {},
   "devDependencies": {
     "@types/react": "~19.1.0",
