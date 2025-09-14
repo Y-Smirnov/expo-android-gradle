@@ -28,6 +28,10 @@ export const withAndroidGradlePluginVersion: ConfigPlugin<
         regex,
         `classpath 'com.android.tools.build:gradle:${gradlePluginVersion}'`,
       );
+
+      console.log(
+        `Successfully updated Android Gradle plugin to ${gradlePluginVersion}.`,
+      );
     } else {
       console.warn(
         "Android Gradle plugin dependency not found in project build.gradle.",

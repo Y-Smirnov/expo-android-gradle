@@ -32,6 +32,10 @@ const withGradleWrapperVersion: ConfigPlugin<AndroidGradleProps> = (
           const newContent = content.replace(regex, `$1${gradleVersion}$3`);
 
           await fs.writeFile(wrapperPath, newContent, "utf-8");
+
+          console.log(
+            `Successfully updated Android Gradle to ${gradleVersion}.`,
+          );
         } else {
           console.warn(
             "Gradle distributionUrl not found in gradle-wrapper.properties.",
