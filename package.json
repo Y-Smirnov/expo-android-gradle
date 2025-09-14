@@ -1,6 +1,6 @@
 {
   "name": "expo-android-gradle",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "description": "Plugin for managing Android Gradle versions in Expo projects.",
   "main": "build/withAndroidGradle.js",
   "types": "build/withAndroidGradle.d.ts",
