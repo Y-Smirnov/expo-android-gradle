@@ -1,0 +1,52 @@
+{
+  "name": "expo-android-gradle",
+  "version": "0.1.0",
+  "description": "Plugin for managing Android Gradle versions in Expo projects.",
+  "main": "build/withAndroidGradle.js",
+  "types": "build/withAndroidGradle.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "xed example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "files": [
+    "build",
+    "app.plugin.js"
+  ],
+  "keywords": [
+    "expo",
+    "android",
+    "gradle",
+    "expo-android-gradle"
+  ],
+  "repository": "https://github.com/Y-Smirnov",
+  "bugs": {
+    "url": "https://github.com/Y-Smirnov/issues"
+  },
+  "author": "yevheniismirnov <yevhenii.smirnov@outlook.com> (Y-Smirnov)",
+  "license": "MIT",
+  "homepage": "https://github.com/Y-Smirnov#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "eslint": "^9.0.0",
+    "eslint-config-expo": "^8.0.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "expo": "^54.0.2",
+    "expo-module-scripts": "^5.0.7",
+    "prettier": "^3.6.2",
+    "react-native": "0.81.4"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
